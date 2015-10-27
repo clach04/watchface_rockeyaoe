@@ -8,19 +8,25 @@
         "configurable"
     ],
     "companyName": "clach04",
-    "longName": "FILL ME IN!",
+    "longName": "Rocky AOE",
     "projectType": "native",
     "resources": {
-        "media": []
+        "media": [
+            {
+                "file": "fonts/ROCKYAOE.ttf",
+                "name": "FONT_ROCKY_AOE_55",
+                "type": "font"
+            }
+        ]
     },
     "sdkVersion": "3",
-    "shortName": "FILL ME IN!",
+    "shortName": "Rocky AOE",
     "targetPlatforms": [
         "aplite",
         "basalt",
         "chalk"
     ],
-    "uuid": "33a003e9-91ec-40fe-b652-b41248212f74",
+    "uuid": "219c6c35-6217-437b-990f-cf3ac774ed00",
     "versionLabel": "0.1",
     "watchapp": {
         "watchface": true

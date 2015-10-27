@@ -2,9 +2,12 @@
 
 #define USE_GENERIC_MAIN
 #undef REMOVE_LEADING_ZERO_FROM_TIME  /* 12 hour display will not have a leading "0" if this is defined */
-#undef FONT_NAME
-#undef FONT_SYSTEM_NAME  /* the default font system will be used */
+#define FONT_NAME RESOURCE_ID_FONT_ROCKY_AOE_55
 #undef DEBUG_TIME
+
+#ifdef PBL_COLOR
+#define DEFAULT_TIME_COLOR GColorRed
+#endif
 
 #ifdef PBL_ROUND /* 180x180 */
 /*TODO center/move right*/
