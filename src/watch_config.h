@@ -19,14 +19,14 @@
 #ifdef PBL_ROUND /* 180x180 */
 /*TODO center/move right*/
     #define CLOCK_POS GRect(0, 72, 180, 180) /* probably taller than really needed */
-    #define BT_POS GRect(0, 100, 180, 180) /* probably taller than really needed */
+    #define BT_POS GRect(0, 121, 180, 180) /* probably taller than really needed */
 
     #define DATE_POS GRect(0, 20, 180, 180) /* probably taller than really needed */
 
     #define BAT_POS GRect(0, 10, 180, 180) /* probably taller than really needed */
 #else /* PBL_RECT 144x168*/
     #define CLOCK_POS GRect(0, 62, 144, 168) /* probably taller than really needed */
-    #define BT_POS GRect(0, 120, 144, 168) /* probably taller than really needed */
+    #define BT_POS GRect(0, 113, 144, 168) /* probably taller than really needed */
     #define DATE_POS GRect(0, 10, 144, 168) /* probably taller than really needed */
     #define BAT_POS GRect(0, 0, 144, 168) /* probably taller than really needed */
 #endif /* end of Round or rectangle */
