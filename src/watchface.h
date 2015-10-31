@@ -15,7 +15,10 @@
 #ifndef DATE_FMT_STR
 #define DATE_FMT_STR "%a, %d %b"  /* TODO review %d for day */
 #endif /* DATE_FMT_STR */
+
+#ifndef MAX_DATE_STR
 #define MAX_DATE_STR "Thu, 00 Aug"
+#endif /* MAX_DATE_STR */
 
 #define MAX_TIME_STR "00:00"
 
