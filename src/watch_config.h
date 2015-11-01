@@ -2,7 +2,7 @@
 
 #define USE_GENERIC_MAIN
 #undef REMOVE_LEADING_ZERO_FROM_TIME  /* 12 hour display will not have a leading "0" if this is defined */
-#define FONT_NAME RESOURCE_ID_FONT_ROCKY_AOE_53
+#define FONT_NAME RESOURCE_ID_FONT_ROCKY_AOE_50
 #define USE_TIME_FONT_FOR_DATE
 #undef DEBUG_TIME
 
